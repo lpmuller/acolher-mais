@@ -1,0 +1,21 @@
+header {
+    background-color: var(--preto);
+    height: 4rem; 
+    width: 100%;   
+    padding: 1rem;  
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;   
+    box-sizing: border-box; 
+}
+
+header img {
+    max-height: 25px;
+}
+
+.menu-itens {
+    color: var(--branco);
+    margin-left: 40px;
+    text-decoration: none;
+}
+

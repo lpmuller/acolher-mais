@@ -1,0 +1,32 @@
+.filter-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+    margin:0 10%;
+}
+
+.filter-container {
+    width: 250px;
+    margin-right:10px;
+}
+
+.organization-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 10%;
+    border: 1px solid var(--preto);
+    border-radius: 10px;
+    padding: 30px;   
+    align-items: center; 
+}
+
+.field-container{
+    margin-right: 40px;
+}
+
+.organization-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 0px 0;
+}

@@ -1,0 +1,48 @@
+/*Paleta*/
+:root {
+    --preto: #141414;
+    --branco: #FEFEFE; 
+    --cinza: #D9D9D9;
+    --vermelho: #FF000050;
+    --roxo: #662D9150;
+    --amarelo: #F7931E50;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--branco);  
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 40px 0 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.btn {
+    background-color: var(--preto);
+    color: var(--branco);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-main {    
+    font-size: 16px;
+    padding: 10px 25px;
+    margin-top: 30px;    
+}
+
+.btn-secondary {
+    padding: 5px 10px;
+    height: 30px;
+    min-width: 90px;
+    margin:0 5px 0 5px;
+}
+

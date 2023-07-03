@@ -1,0 +1,47 @@
+.organization{
+    margin: 20px auto;
+    width: 500px;
+    max-width: 80%;  
+}
+.name-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+}
+.field-title {
+    font-weight: bold;
+    display: block;
+    margin: 30px 0 5px 0;
+}
+
+.field-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tags-item {
+    margin: 5px 5px 0 0;
+    padding: 6px;
+    border-style: hidden;
+    border-radius: 15px;
+}
+
+.tag-gender {    
+    background-color: var(--vermelho);
+}
+
+.tag-orientation {    
+    background-color: var(--roxo);
+}
+
+.tag-service {    
+    background-color: var(--amarelo);
+}
+
+.operation-container {
+    margin-top: 10px; 
+    display: flex; 
+    justify-content: right;
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACOLHER+</title> 
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/base.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/header.css">  
+    <link rel="stylesheet" type="text/css" href="./assets/css/form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+    <script type="module" src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore.js"></script>
+    <script type="module" src="./assets/js/firebaseConfig.js"></script>
+    <script type="module" src="./assets/js/populateDropdown.js"></script>
+    <script type="module" src="./assets/js/editOrganization.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./assets/img/acolher_logo.png" alt="Logo ACOLHER+"></a>
+        <nav class="menu">
+            <a class="menu-itens" href="cadastro-organizacao.html">CADASTRAR</a>
+            <a class="menu-itens" href="index.html">BUSCAR</a>
+        </nav>
+    </header>
+    <h1 class="page-title">Editar organização</h1>
+    <form class="form" id="organizationForm">
+        <label class="form-label" for="name">Nome</label>
+        <input class="form-text" type="text" id="name" name="name" required>
+
+        <label class="form-label" for="description">Descrição</label>
+        <input class="form-text" type="text" id="description" name="description">
+
+        <label class="form-label" for="gender">Identidades de gênero atendidas</label>
+        <select class="form-select" id="gender" name="gender" multiple></select>
+
+        <label class="form-label" for="orientation">Orientações sexuais atendidas</label>
+        <select class="form-select" id="orientation" name="orientation" multiple></select>
+
+        <label class="form-label" for="service">Serviços oferecidos</label>
+        <select class="form-select" id="service" name="service" multiple></select>
+
+        <label class="form-label" for="tel">Telefone</label>
+        <input class="form-text" type="tel" id="tel" name="tel" placeholder="(XX) XXXXX-XXXX">
+
+        <label class="form-label" for="socialnetwork">Rede social</label>
+        <input class="form-text" type="text" id="socialnetwork" name="socialnetwork">
+
+        <label class="form-label" for="site">Site</label>
+        <input class="form-text" type="url" id="site" name="site" placeholder="www.site.com">
+
+        <label class="form-label" for="email">E-mail</label>
+        <input class="form-text" type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+        <div class="btn-container"><button class="btn btn-main" type="submit">Salvar</button></div>      
+    </form>
+    
+</body>
+</html>
